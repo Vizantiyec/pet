@@ -1,6 +1,6 @@
-var Task = function (name) {
+var Task = function (data) {
     'use strict';
-    this.name = name;
+    this.name = data.name;
     this.complited = false;
 
 };

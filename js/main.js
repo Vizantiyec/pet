@@ -1,6 +1,7 @@
 var Task = require('./task.js');
+var Repo = require('./taskRepository.js');
 
-var task1 = new Task('Create a demo for constructor');
+var task1 = new Task(Repo.get(1));
 var task2 = new Task('Create a demo for modules');
 var task3 = new Task('Create a demo for singletons');
 var task4 = new Task('Create a demo for prototypes');
