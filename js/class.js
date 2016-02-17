@@ -1,11 +1,10 @@
-'use strict';
+'use strict'
 
 class Task {
     constructor (name) {
     this.name = name;
     this.complited = false;
     }
-
 
     complete() {
         console.log('Completing Task: ' + this.name);
